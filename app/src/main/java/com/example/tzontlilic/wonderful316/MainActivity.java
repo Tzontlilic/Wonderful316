@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         mTextView = (TextView) findViewById(R.id.textView);
-        mTextView.setText("hello wife");
+        mTextView.setText("");
     }
 
 }
